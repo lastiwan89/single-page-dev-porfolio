@@ -9,6 +9,9 @@ module.exports = {
       "prim-light": "#d9d9d9",
       "prim-white": "#FFFFFF",
     },
+    fontFamily: {
+      sans: ["Space Grotesk", "sans-serif"],
+    },
     fontSize: {
       "fs-88": "88px",
       "fs-48": "48px",
