@@ -2,17 +2,19 @@ import { ICONS } from "../constant";
 
 export default function NavLink() {
   return (
-    <nav>
-      <div className="mb-10 flex flex-col items-center gap-8 md:flex-row md:justify-between">
-        <h2 className="text-fs-24 leading-lh-32 text-pure-white tracking-ls-0.333 text-center font-sans font-bold">
-          adamkeyes
-        </h2>
-        <div className="flex items-center justify-center gap-8">
-          {ICONS.map((item) => (
-            <img key={item.label} src={`${item.url}`} alt={item.label} />
+    <div>
+      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between md:px-6">
+        <div>
+          <h3 className="text-pure-white text-fs-24 leading-lh-32 md:text-fs-32 -tracking-ls-0.333 md:-tracking-ls-0.444 font-bold">
+            adamkeyes
+          </h3>
+        </div>
+        <div className="flex items-center gap-6">
+          {ICONS.map((icon) => (
+            <img src={icon.url} alt={`${icon.label} icon`} />
           ))}
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
