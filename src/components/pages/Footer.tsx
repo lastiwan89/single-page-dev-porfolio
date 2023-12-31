@@ -2,7 +2,7 @@ import NavLink from "../Navlink";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center pt-12">
+    <footer className="mt-3 py-8">
       <NavLink />
     </footer>
   );
