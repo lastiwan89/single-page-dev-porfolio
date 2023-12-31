@@ -3,7 +3,7 @@ import Divider from "../Divider";
 
 export default function Contact() {
   return (
-    <section className="from-med-black contact flex flex-col gap-y-12 bg-gradient-to-b to-black px-6">
+    <section className="contact bg-med-black flex flex-col gap-y-12 px-6">
       <div className="flex flex-col py-16 md:px-40 lg:grid lg:grid-cols-2 xl:px-40">
         <div className="flex flex-col gap-5">
           <h3 className="text-pure-white md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045 text-fs-40 leading-lh-40 -tracking-ls-1.136 text-center font-bold lg:text-start">
