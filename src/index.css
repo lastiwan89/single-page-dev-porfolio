@@ -13,7 +13,16 @@
     background-image: url("/pattern-circle.svg"), url("/pattern-rings.svg");
     background-repeat: no-repeat;
     background-position:
-      right -60px bottom 280px,
+      right -60px bottom 350px,
       top 150px left -350px;
   }
+  .contact {
+    background-image: url("/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 70px left -350px;
+  }
+}
+
+input {
+  background: transparent;
 }
