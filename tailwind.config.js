@@ -6,6 +6,7 @@ export default {
       sans: ['"Space Grotesk", sans-serif'],
     },
     fontSize: {
+      "fs-88": "88px",
       "fs-72": "72px",
       "fs-48": "48px",
       "fs-40": "40px",
@@ -15,6 +16,7 @@ export default {
       "fs-16": "16px",
     },
     lineHeight: {
+      "lh-88": "88px",
       "lh-72": "72px",
       "lh-56": "56px",
       "lh-40": "40px",
@@ -23,10 +25,11 @@ export default {
       "lh-26": "26px",
     },
     letterSpacing: {
-      "ls-0.333": "-0.333px",
+      "ls-0.333": "0.333px",
       "ls-1.136": "1.136px",
       "ls-1.5": "1.5px",
       "ls-1": "1px",
+      "ls-2.5": "2.5px",
       "ls-2.045": "2.045px",
       "ls-2.286": "2.286px",
       "ls-0.222": "0.222px",
