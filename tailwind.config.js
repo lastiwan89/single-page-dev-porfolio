@@ -43,6 +43,7 @@ export default {
     },
     maxWidth: {
       desktop: "1440px",
+      "project-card": "320px",
     },
     extend: {},
   },
