@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/lastiwan89/single-page-dev-porfolio)
-- Live Site URL: [i dont know](https://inprogress.com/)
+- Just Live Site URL: [tablet and desktop not finished yet](https://dev-porfolio-6toin3ork-chill-rains-projects.vercel.app/)
 
 ## My process
 
