@@ -29,6 +29,7 @@ export default {
       "ls-1": "1px",
       "ls-2.045": "2.045px",
       "ls-2.286": "2.286px",
+      "ls-0.222": "0.222px",
     },
     colors: {
       black: "#151515",

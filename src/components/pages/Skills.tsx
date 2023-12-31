@@ -1,8 +1,8 @@
-import { SKILL } from "../constant";
+import { SKILL } from "../../constant";
 
 export default function Skills() {
   return (
-    <section className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-3 xl:gap-12">
+    <section className="flex flex-col gap-6 py-16 md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-3 xl:gap-12">
       {SKILL.map((item) => (
         <div
           key={item.label}
