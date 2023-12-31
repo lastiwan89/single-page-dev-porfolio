@@ -1,35 +1,74 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite Frontend Mentor - Single-page developer portfolio solution
+
+This is a solution to the [Single-page developer portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [React + TypeScript + Vite Frontend Mentor - Single-page developer portfolio solution](#react--typescript--vite-frontend-mentor---single-page-developer-portfolio-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- See the correct content for each team member on the About page when the `+` icon is clicked
+- Receive an error message when the contact form is submitted if:
+  - The `Name`, `Email Address` or `Message` fields are empty should show "This field is required"
+  - The `Email Address` is not formatted correctly should show "Please use a valid email address"
+
+### Screenshot
+
+![Mobile Version](./public/single-portfolio-dev.png)
+
+### Links
+
+- Solution URL: [Github](https://github.com/lastiwan89/single-page-dev-porfolio)
+- Live Site URL: [i dont know](https://inprogress.com/)
+
+## My process
 
 - I like to use react because of reusable components
-- also typescript for indexing content for more simple code
-- i also use tailwindcss with layer utilities for free configuring background image
+- Typescript for indexing content for more simple code
+- Tailwindcss make me relax to code and make me more fun when coding, because of taiwlind have so many feature that help me a lot.
+- I love the way layer utilities in main css do more thing like configuring for more simple syntax at the tsx file
 - i am also use prettier plugin tailwindcss for better sorting class
+- next time i want to use husky to be better code committing.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Built with
 
-Currently, two official plugins are available:
+- React Vite
+- TailwindCSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [TailwindCSS](https://tailwindcss.com/) - For styles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Useful resources
 
-## Expanding the ESLint configuration
+- [Tailwind Official Websites](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier#how-classes-are-sorted) for how tailwind and prettier works in tailwind
+- [Prettier Plugin for tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) for more information about the plugins
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Tailwindcss Official Websites](https://tailwindcss.com/) - This helped me for configuring tailwind config, and the most of styling syntax
 
-- Configure the top-level `parserOptions` property like this:
+## Author
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+- Frontend Mentor - [@lastiwan89](https://www.frontendmentor.io/profile/lastiwan89)
+- GitHub Profile - [@lastiwan89](https://github.com/lastiwan89)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
