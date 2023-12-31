@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/src/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf")
+    format(truetype);
+}
+
+@layer utilities {
+  .hero {
+    background-image: url("/pattern-circle.svg"), url("/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-position:
+      right -60px bottom 280px,
+      top 150px left -350px;
+  }
+}
