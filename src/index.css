@@ -23,11 +23,40 @@
     background-position:
       right -60px bottom 350px,
       top 150px left -350px;
+    @screen md {
+      background-position:
+        right -60px bottom 240px,
+        top 70px left -270px;
+    }
+    @screen lg {
+      background-position:
+        right 260px bottom 90px,
+        top 70px left -270px;
+    }
   }
+
+  .skill {
+    background-image: url("/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right -350px;
+    @screen md {
+      background-position: bottom right -350px;
+    }
+    @screen lg {
+      background-position: bottom right -300px;
+    }
+  }
+
   .contact {
     background-image: url("/pattern-rings.svg");
     background-repeat: no-repeat;
     background-position: bottom 70px left -350px;
+    @screen md {
+      background-position: bottom 20px left -350px;
+    }
+    @screen lg {
+      background-position: bottom 40px left -220px;
+    }
   }
 }
 
