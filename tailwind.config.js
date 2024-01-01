@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+import defaultTheme from "tailwindcss/defaultTheme";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      sans: ['"Space Grotesk", sans-serif'],
-    },
+    // fontFamily: {
+    //   sans: ['"Space Grotesk", sans-serif'],
+    // },
     fontSize: {
       "fs-88": "88px",
       "fs-72": "72px",
@@ -46,7 +49,11 @@ export default {
       desktop: "1440px",
       "project-card": "320px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["'Space Grotesk'", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 };
