@@ -5,14 +5,14 @@ export default function Project() {
   return (
     <section className="px-6">
       <div className="py-16">
-        <div className="mb-8 flex flex-col justify-between">
+        <div className="mb-8 flex flex-col justify-between lg:px-10">
           <div className="flex items-center justify-between">
             <h3 className="text-pure-white md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045 text-fs-40 leading-lh-40 -tracking-ls-1.136 font-bold">
               Projects
             </h3>
             <Button />
           </div>
-          <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
             {PROJECT.map((item) => (
               <div className="flex flex-col gap-2" key={item.label}>
                 <div>
@@ -34,7 +34,7 @@ export default function Project() {
                     {item.tech.tech3}
                   </p>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 lg:hidden lg:flex-col lg:items-center">
                   <Button text="view project" />
                   <Button text="view code" />
                 </div>
