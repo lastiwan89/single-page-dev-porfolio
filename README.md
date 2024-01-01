@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
+- Live Site URL: [Vercel](https://dev-porfolio-6toin3ork-chill-rains-projects.vercel.app/)
 - Solution URL: [Github](https://github.com/lastiwan89/single-page-dev-porfolio)
-- Just Live Site URL: [tablet and desktop not finished yet](https://dev-porfolio-6toin3ork-chill-rains-projects.vercel.app/)
 
 ## My process
 
@@ -46,6 +46,9 @@ Users should be able to:
 - I love the way layer utilities in main css do more thing like configuring for more simple syntax at the tsx file
 - i am also use prettier plugin tailwindcss for better sorting class
 - next time i want to use husky to be better code committing.
+- i am sorry if you find some semantic elements like `<br/>` in my components. i just cheat to be more flexible when displaying the text.
+- i do a lot of displaying background image things. i am sorry, i just can't figure it out how to do properly to achieve the original from figma file.
+- i do a lot of cheat like props too.
 
 ### Built with
 
