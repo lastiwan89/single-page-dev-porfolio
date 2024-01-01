@@ -46,8 +46,8 @@ export default {
       "pure-white": "#ffffff",
     },
     maxWidth: {
+      lg: "1024px",
       desktop: "1440px",
-      "project-card": "320px",
     },
     extend: {
       fontFamily: {
