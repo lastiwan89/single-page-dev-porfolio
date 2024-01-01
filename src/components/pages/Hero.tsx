@@ -22,7 +22,7 @@ export default function Hero() {
               Nice to <br className="hidden md:block" /> meet you! I’m{" "}
               <span className="border-green border-b-4">Adam Keyes</span>.
             </h1>
-            <p className="text-pure-white px-6 text-fs-16 md:text-fs-18 md:leading-lh-28 leading-lh-26 text-center md:mt-16 md:text-start">
+            <p className="text-pure-white text-fs-16 md:text-fs-18 md:leading-lh-28 leading-lh-26 px-6 text-center md:mt-16 md:text-start">
               Based in the UK, I’m a front-end developer{" "}
               <br className="hidden md:block" /> passionate about building
               accessible web apps <br className="hidden md:block" /> that users
