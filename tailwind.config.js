@@ -51,7 +51,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["'Space Grotesk'", ...defaultTheme.fontFamily.sans],
+        sans: [
+          "'Space Grotesk', 'sans-serif'",
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     },
   },
