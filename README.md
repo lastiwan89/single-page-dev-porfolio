@@ -36,7 +36,7 @@ mobile view ![mobile version](./public/SP-dev-mobile.png)
 
 ### Links
 
-- Live Site URL: [Vercel](https://dev-porfolio-6toin3ork-chill-rains-projects.vercel.app/)
+- Live Site URL: [Vercel](https://dev-porfolio-spa.vercel.app/)
 - Solution URL: [Github](https://github.com/lastiwan89/single-page-dev-porfolio)
 
 ## My process
