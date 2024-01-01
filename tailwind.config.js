@@ -17,6 +17,7 @@ export default {
       "fs-24": "24px",
       "fs-18": "18px",
       "fs-16": "16px",
+      "fs-14": "14px",
     },
     lineHeight: {
       "lh-88": "88px",
@@ -41,6 +42,7 @@ export default {
     colors: {
       black: "#151515",
       green: "#4EE1A0",
+      red: "#FF6F5B",
       "med-black": "#242424",
       "med-white": "#d9d9d9",
       "pure-white": "#ffffff",
