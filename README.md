@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Version](./public/single-portfolio-dev.png)
+desktop view ![desktop version](./public/SP-dev-desktop.png)
+mobile view ![mobile version](./public/SP-dev-mobile.png)
 
 ### Links
 
