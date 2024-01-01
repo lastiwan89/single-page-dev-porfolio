@@ -14,9 +14,17 @@ export default function Project() {
           </div>
           <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
             {PROJECT.map((item) => (
-              <div className="relative flex flex-col gap-2" key={item.label}>
-                <div>
-                  <img src={item.url} alt={`${item.label} image`} />
+              <div className="flex flex-col gap-2" key={item.label}>
+                <div className="overlay-box relative lg:hover:bg-black lg:hover:opacity-60">
+                  <img
+                    className="overlay-img"
+                    src={item.url}
+                    alt={`${item.label} image`}
+                  />
+                  <div className="overlay-text flex flex-col gap-8">
+                    <Button text="view project" />
+                    <Button text="view code" />
+                  </div>
                 </div>
                 <div>
                   <h3 className="text-pure-white text-fs-24 leading-lh-32 font-bold uppercase">
