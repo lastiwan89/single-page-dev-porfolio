@@ -41,7 +41,9 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <Divider />
+      <div className="lg:px-10">
+        <Divider />
+      </div>
     </section>
   );
 }
