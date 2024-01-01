@@ -8,7 +8,7 @@ export default function Skills() {
         {SKILL.map((item) => (
           <div
             key={item.label}
-            className="mt-4 flex flex-col items-center justify-center gap-1 md:items-start md:gap-4 lg:px-10"
+            className="mt-4 flex flex-col items-center justify-center gap-1 md:items-start md:gap-4 lg:px-10 xl:px-24"
           >
             <h3 className="text-pure-white md:text-fs-48 md:-tracking-ls-1.5 md:leading-lh-56 text-fs-32 leading-lh-40 -tracking-ls-1 font-bold">
               {item.label}

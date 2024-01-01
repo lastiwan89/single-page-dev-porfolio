@@ -41,7 +41,7 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <div className="lg:px-10">
+      <div className="lg:px-10 xl:px-24">
         <Divider />
       </div>
     </section>
