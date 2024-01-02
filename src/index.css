@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* based on tailwind doc */
+/* i create this based on common use of tailwindcss */
 @layer base {
   @font-face {
     font-family: "Space Grotesk";
@@ -13,6 +13,14 @@
     font-family: "Space Grotesk";
     font-weight: 500;
     src: url("/fonts/SpaceGrotesk-Medium.ttf"), format(truetype);
+  }
+  /* i move this code from outside layer base */
+  body {
+    background-color: #151515;
+  }
+
+  input {
+    background: transparent;
   }
 }
 
@@ -88,12 +96,4 @@
   .overlay-box:hover .overlay-text {
     opacity: 1;
   }
-}
-
-body {
-  background-color: #151515;
-}
-
-input {
-  background: transparent;
 }

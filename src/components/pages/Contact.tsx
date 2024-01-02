@@ -83,6 +83,7 @@ export default function Contact() {
               value={contactForm.name}
               onChange={handleChange}
             />
+            {/* i update this isError with .name in if declaration */}
             {isError.name && (
               <p className="text-end text-fs-14 font-medium text-red">
                 {isError.name}
