@@ -61,13 +61,13 @@ export default function Contact() {
   }
 
   return (
-    <section className="contact flex flex-col gap-y-12 bg-med-black px-6">
+    <section className="contact bg-black-lighter flex flex-col gap-y-12 px-6">
       <div className="flex flex-col py-16 md:px-28 lg:grid lg:grid-cols-2 lg:gap-20 lg:px-16 xl:gap-40 xl:px-36">
         <div className="flex flex-col gap-5">
-          <h3 className="text-center text-fs-40 font-bold leading-lh-40 -tracking-ls-1.136 text-pure-white md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045 lg:text-start">
+          <h3 className="text-white-lighter text-center text-fs-40 font-bold leading-lh-40 -tracking-ls-1.136 md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045 lg:text-start">
             Contact
           </h3>
-          <p className="text-center text-fs-16 font-medium leading-lh-26 text-med-white md:text-fs-18 md:leading-lh-28 lg:text-start">
+          <p className="text-white-darker text-center text-fs-16 font-medium leading-lh-26 md:text-fs-18 md:leading-lh-28 lg:text-start">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I’ll get back to you as soon as possible.
           </p>
@@ -75,7 +75,7 @@ export default function Contact() {
         <form onSubmit={handleSubmit} className="flex flex-col">
           <div className="flex flex-col">
             <input
-              className="mt-2 border-b-[1px] border-b-med-white p-6 text-pure-white placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
+              className="text-white-lighter mt-2 border-b-[1px] border-b-med-white p-6 placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
               type="text"
               name="name"
               id="name"
@@ -92,7 +92,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-col">
             <input
-              className="mt-2 border-b-[1px] border-b-med-white p-6 text-pure-white placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
+              className="text-white-lighter mt-2 border-b-[1px] border-b-med-white p-6 placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
               type="email"
               name="email"
               id="email"
@@ -108,7 +108,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-col">
             <input
-              className="mb-6 mt-2 border-b-[1px] border-b-med-white px-6 pb-16 pt-6 text-pure-white placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
+              className="text-white-lighter mb-6 mt-2 border-b-[1px] border-b-med-white px-6 pb-16 pt-6 placeholder:text-fs-16 placeholder:font-medium placeholder:uppercase placeholder:leading-lh-26 placeholder:-tracking-ls-0.222"
               type="text"
               name="message"
               id="message"

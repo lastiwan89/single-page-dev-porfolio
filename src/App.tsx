@@ -6,7 +6,7 @@ import Skills from "./components/pages/Skills";
 
 export default function App() {
   return (
-    <main className="max-w-desktop mx-auto bg-black py-6 xl:py-10">
+    <main className="bg-black-darker mx-auto max-w-desktop py-6 xl:py-10">
       <Hero />
       <Skills />
       <Project />

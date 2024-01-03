@@ -7,7 +7,7 @@ export default function Project() {
       <div className="py-16">
         <div className="mb-8 flex flex-col justify-between lg:px-10 xl:px-24">
           <div className="flex items-center justify-between">
-            <h3 className="text-pure-white md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045 text-fs-40 leading-lh-40 -tracking-ls-1.136 font-bold">
+            <h3 className="text-white-lighter text-fs-40 font-bold leading-lh-40 -tracking-ls-1.136 md:text-fs-72 md:leading-lh-72 md:-tracking-ls-2.045">
               Projects
             </h3>
             <Button />
@@ -27,18 +27,18 @@ export default function Project() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-pure-white text-fs-24 leading-lh-32 font-bold uppercase">
+                  <h3 className="text-white-lighter text-fs-24 font-bold uppercase leading-lh-32">
                     {item.label}
                   </h3>
                 </div>
                 <div className="flex gap-4">
-                  <p className="text-med-white text-fs-18 leading-lh-28 font-medium uppercase">
+                  <p className="text-white-darker text-fs-18 font-medium uppercase leading-lh-28">
                     {item.tech.tech1}
                   </p>
-                  <p className="text-med-white text-fs-18 leading-lh-28 font-medium uppercase">
+                  <p className="text-white-darker text-fs-18 font-medium uppercase leading-lh-28">
                     {item.tech.tech2}
                   </p>
-                  <p className="text-med-white text-fs-18 leading-lh-28 font-medium uppercase">
+                  <p className="text-white-darker text-fs-18 font-medium uppercase leading-lh-28">
                     {item.tech.tech3}
                   </p>
                 </div>
